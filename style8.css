@@ -1,0 +1,114 @@
+body {
+    background: url('https://img.freepik.com/vetores-premium/amarelo-alaranjado-e-preto-fundo-abstrato-do-negocio_71775-738.jpg') no-repeat center center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color:#ffffff;
+
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header{
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: rgb(214, 207, 207);
+    text-decoration: none;
+}
+.banner {
+    background: url('https://img.freepik.com/fotos-gratis/vazio-salvar-textura-sala-luz_1258-175.jpg?ga=GA1.1.1955482803.1732709271&semt=ais_hybrid') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+section {
+    padding: 20px;
+    margin: 0 10px;
+}
+.book-card{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    background-color: rgba(0, 0, 0, 0.685);
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+    transition: transform 0,3s ease,box-shadow  0,3s ease;
+}
+.book-card:hover {
+    transform: translate(-10px);
+    box-shadow: 0 8px 16px rgb(255, 255, 255);
+}
+.book-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+#about {
+    border: 1px solid rgb(255, 252, 252);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    background-color: #ddd;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    transition: transform 0,3s ease,box-shadow 0,3s ease;
+}
+
+form {
+    display: grid;
+    gap: 1rem;
+}
+label{
+    font-weight: bold;
+}
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+button {
+    background: red;
+    color: #ffffff;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+button:hover {
+    background: rgb(34, 34, 34);
+    
+}
+/*Footer*/
+footer{
+    background: #DAA520;
+    color: #000000;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+}
+
